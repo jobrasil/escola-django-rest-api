@@ -1,4 +1,4 @@
-# API REST DJANGO REST FRAMEWORK 3 #
+# API DJANGO REST FRAMEWORK 3 #
 
 ### Tecnologias Utilizadas: ###
 
@@ -29,10 +29,10 @@
 ### Configurações adicionais (caso não existam ou sejam necessárias) ###
 
 * criar o projeto
-- ``django-admin startproject DjangoAPI``
+``django-admin startproject DjangoAPI``
 
 * criando o nome da aplicacao
-- ``python manage.py startapp EscolaApp``
+``python manage.py startapp EscolaApp``
 
 * altere no arquivo settings.py o idioma e o horário que usaremos na aplicação
 - ``LANGUAGE_CODE = 'pt-br'``
@@ -64,13 +64,13 @@
 }``
 
 * sempre que houver qualquer alteração de modelo rodar o comando:
-- ``python manage.py makemigrations``
+``python manage.py makemigrations``
 
 * aplicando alterações na banco:
-- ``python manage.py migrate``
+``python manage.py migrate``
 
 
 ### Rodando o projeto ###
 
 * utilize o comando para subir o serviço: <code>python manage.py runserver</code>
-* para realizar o teste utilize  : karma start
+
